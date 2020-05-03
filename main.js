@@ -1,28 +1,27 @@
 
-function Welcome () {
+  function Welcome () {
 
-    alert ("Welcome" )
-    var isim =  prompt ( "Please enter your name" , "tarik")
+   alert ("Hallo Wilkommen")
 
-    document.getElementById ("user").innerHTML=isim
+    var isim = prompt("Hallo wilkommen bei unserem Homepage" , "Bitte schreiben Sie name")
 
+    var message = "hallo" + isim + "how are you"
+ 
+    alert(message)
 
+    if (isim != null) {
 
+      console.log(isim.length);
 
-    console.log(isim.length);
+        document.getElementById("user").innerHTML = isim
 
+    }
 
+   if (isim.length > 0) {
 
+        console.log("sifirdan buyuk bir isim girdiniz" );
 
-
-    if ( isim != null ) {
-
-        var message = " Hello " + isim + " How are you"
-        alert (message)
+        alert("sifirdan buyuk bir isim girdiniz")
         
     }
-    
-
-   
-
-}
+     }
