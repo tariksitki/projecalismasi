@@ -57,10 +57,22 @@
    document.getElementById("search").style.display = "inline"  
   }
 
-    
    }
 
+   
 
+   function my() {  
+
+    var open = true
+
+  
+    if (open) {
+  
+     document.getElementById("search").style.display = "none"  
+    }
+  
+     }
+  
 
 
    
