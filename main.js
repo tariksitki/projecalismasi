@@ -25,3 +25,47 @@
         
  //   }
  //    }
+
+
+
+
+//  function mySearch() {
+  
+ //  var abc = document.getElementById("search")
+
+//   if (abc=null ) {
+
+ //  document.getElementById("search").style.display = "none"
+
+   
+  // }
+ //   }
+
+
+
+
+
+
+
+
+ function mySearch() {  
+
+  var openSearch = true
+
+  if (openSearch) {
+
+   document.getElementById("search").style.display = "inline"  
+  }
+
+    
+   }
+
+
+
+
+   
+
+    
+      
+   
+
