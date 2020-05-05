@@ -72,7 +72,32 @@
     }
   
      }
+
+
+     function ikonbutton() {
+
+      var searchikon= true
+    
+      if (searchikon) {
+
+        document.getElementById("ikoninput").style.display = " inline"
+        
+      }
+     }
   
+
+     function searchmousedown() {
+
+      var searchikon1 = true
+
+      if (searchikon1) {
+
+        document.getElementById("ikoninput").style.display = " none"
+
+        
+      }
+       
+     }
 
 
    

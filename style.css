@@ -3,3 +3,12 @@
     background-color:rgb(59, 58, 58);
     
 }
+
+#ikoninput {
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
