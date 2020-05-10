@@ -13,3 +13,19 @@
 }
 
 
+@font-face {
+    font-family: "myfont";
+    src: url("helvetica.ttf") format("truetype");
+  }
+
+ 
+
+
+  @font-face {
+    font-family: "proxima";
+    src: url("proxima.ttf") format("truetype");
+  }
+
+  h4{
+    font-family: proxima;
+}
