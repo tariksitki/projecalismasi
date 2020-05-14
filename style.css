@@ -26,7 +26,18 @@
     src: url("proxima.ttf") format("truetype");
   }
 
+
+  @font-face {
+    font-family: "helveticaa";
+    src: url("HelveticaNeue-Roman.otf") format("truetype");
+  }
+
+
   h4{
-    font-family: proxima;
+    font-family: helveticaa;
+}
+
+h1{
+  font-family: helveticaa;
 }
 
